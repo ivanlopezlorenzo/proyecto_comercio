@@ -1,40 +1,31 @@
-﻿#registro{
-	margin-left:15%;
-	font-size:large;
-}
-header{
-	position:absolute;
+﻿header{
+	
 	width:100%;
 	height:70px;
-	background-color:#162443;
-	margin-top:0;
+	background-color:rgba(34, 49, 63,1);
+	border-bottom:2px black solid;
+		
 }
-#detalle{
-	width:100%;
-	height:15px;
-	background-color:#525F7B;
-	border-bottom:5px black;
-	position:relative;
-	top:100%;
-	}
-img{
+#imagen_cabecera{
 	
 	position:relative;
 	left:60%;
-	bottom:100%;
-	
+	margin-top:1%;
 }
 form{
-	position:absolute;
+	position:relative;
 	left:15%;
-	top:40%;
-	
+	bottom:70%;
+}
 
+#imagen_fondo{
+
+	width:100%; 
 }
 .boton{
-	background-color:#162443;
-	border-color:#162443;
-	color:#5B6884;
+	background-color:rgba(34, 49, 63,1);
+	border-color:rgba(34, 49, 63,1);
+	color:rgba(108, 122, 137,0.75);
 	font-size:15px;
 	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	font-weight:bold;
