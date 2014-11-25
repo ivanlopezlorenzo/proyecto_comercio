@@ -10,13 +10,39 @@
 <body>
 	<header>
 		<img id="imagen_cabecera" src="imagenes/power-music.png" alt="power music">
-		<form action="#" method="post">
+		<form id="inicio_sesion" action="#" method="post">
 			<input class="boton" type="submit" name="Entrar" value="Entrar">
-			<input type="email" name="user" value="">
-			<input type="password" name="pass" value="">
+			<input type="email" name="user" value="Usuario" required="required">
+			<input type="password" name="pass" value="Contraseña" required="required">
 		</form>
 	</header>
-	<img id="imagen_fondo" src="imagenes/music2.png" alt="power music">
+	<div id="registro">
+		<strong><p id="eres_nuevo">¿Eres nuevo? Regístrate y disfruta</p></strong>
+		<hr noshade="noshade"/>
+		<p id="campos_obligatorios">(*)Todos los campos son obligatorios</p>
+ 		<form id="labels_registro" action="#" method="post">
+ 			Nombre<input class="input_registro" type="text" name="nombre" value=""required="required"><br><br>
+ 			Apellidos<input class="input_registro" type="text"name="apellidos" required="required"><br><br>
+ 			Fecha de nacimiento<input class="input_registro" type="date" name="nacimiento" required="required"><br><br>
+ 			Email<input class="input_registro" type="email" name="email" required="required"><br><br>
+ 			Contraseña<input class="input_registro" type="password" name="password" required="required"><br><br>
+ 			Repite contraseña <input class="input_registro" type="password" name="repite_password" required="required"><br><br>
+ 			Tipo de usuario <select class="input_registro" name="eleccion_usuario">
+ 								<option selected="selected">Oro</option> 
+ 								<option>Plata</option>
+ 								<option>Bronce</option>
+ 							</select><br><br> 
+ 			<input id="boton_registro" type="submit" name="registrar" value="Regístrate">				
+ 		</form>
+ 	</div>
+ 	<p id="cuentanos">Empieza ya y tendrás la posibilidad de escuchar 1 canción gratis</p>
+ 	<button id="boton_anonimo">
+		<strong id="texto_anonimo">Power Music</strong>
+	</button>
+	<img id="imagen_fondo" src=imagenes/music.png alt="power">
+	<footer>
+		<!--aqui el pie de pagina-->
+	</footer>
 </body>
 
 </html>
