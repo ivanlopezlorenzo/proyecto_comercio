@@ -39,6 +39,7 @@
 	left:20%;
 	top:30%;
 	background-color:white;
+	border-radius: 4px;
 }
 #labels_registro{
 	padding-top:3%;
@@ -51,6 +52,7 @@
 	position:absolute;
 	left:50%;
 	width:45%;
+	box-shadow: 0.5px -0.5px 1px #000;
 }
 #campos_obligatorios{
 	font-size:x-small;
